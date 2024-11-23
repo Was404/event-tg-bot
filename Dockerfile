@@ -1,8 +1,8 @@
 FROM python:alpine
 
-WORKDIR /tg_bot_tobacco
+WORKDIR /event-tg-bot
 
-COPY . /tg_bot_tobacco
+COPY . /event-tg-bot
 
 RUN pip3 install -r requirements.txt
 
